@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.13.0.0
+Copyright (C) 2014 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Thang Micosoft, Micosoft, LIC=0VR30-BF60W-VGP7J-U4S1U-SH4EM-LM895
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.13.0.0
+Toolchain Path:  F:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.13.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+E:\Bai_Tap\ARM\F1-Uart-GPIO\MDK-ARM\F1-Uart-GPIO.uvprojx
+Project File Date:  05/29/2018
+
+<h2>Output:</h2>
+Build target 'F1-Uart-GPIO'
+compiling main.c...
+../Src/main.c(27): warning:  #188-D: enumerated type mixed with another type
+                                        HAL_GPIO_WritePin(GPIOC,GPIO_PIN_13,0);
+../Src/main.c(33): warning:  #188-D: enumerated type mixed with another type
+                                        HAL_GPIO_WritePin(GPIOC,GPIO_PIN_13,1);
+../Src/main.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=4168 RO-data=292 RW-data=12 ZI-data=1092  
+"F1-Uart-GPIO\F1-Uart-GPIO.axf" - 0 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ARM::CMSIS:CORE:3.40.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.40.0
+
+<h2>Collection of Component include folders:</h2>
+  E:\Bai_Tap\ARM\F1-Uart-GPIO\MDK-ARM\RTE
+  F:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+  F:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.40.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+</pre>
+</body>
+</html>
